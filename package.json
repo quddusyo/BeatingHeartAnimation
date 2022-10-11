@@ -1,0 +1,11 @@
+{
+  "name": "beatingheart",
+  "version": "1.0.0",
+  "description": "Beating Heart Front End project to practice modern css animations concepts",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Yousuf Quddus",
+  "license": "ISC"
+}

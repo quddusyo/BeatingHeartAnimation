@@ -1,0 +1,44 @@
+/* import tags */
+@import url('https://fonts.googleapis.com/css2?family=Georama&family=Montserrat:wght@300;400;500&family=Poppins:wght@300;400;700&family=Titillium+Web:wght@300;400;700&display=swap');
+
+body {
+    background-color: #131316;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+/* ANIMATION CSS */
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.logos {
+    display: flex;
+}
+.logo:nth-child(1){
+    transition-delay: 200ms;
+}
+.logo:nth-child(2){
+    transition-delay: 1000ms;
+}
+.logo:nth-child(3){
+    transition-delay: 2300ms;
+}
+/* End of Animation CSS */
